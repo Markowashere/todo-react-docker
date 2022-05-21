@@ -2,8 +2,9 @@ version: '3.7'
 
 services:
 
-  sample:
-    container_name: sample
+  reacttodo:
+    container_name: dev
+    image: reacttodo-dev
     build:
       context: .
       dockerfile: Dockerfile
