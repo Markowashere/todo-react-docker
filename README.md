@@ -1,6 +1,6 @@
 # TODO app created in React and deployed in Docker container.
 
-DEV environment:
+DEV environment (port 3001):
 
     docker-compose up -d --build
 
